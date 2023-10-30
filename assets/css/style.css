@@ -8,17 +8,33 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    height: 100vh;
     box-sizing: border-box;
     background-color:#042326;
     color: #F6F6F6;
 }
 
+header{
+    padding-top: 2%;
+    padding-left: 15%;
+}
+
+.top-nav{
+    display: flex;
+    gap: 50px;
+
+}
+.nav-links{
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #0FC2C0;
+    text-decoration: none;
+
+}
 .content{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    margin: 10% 15%;
+    margin: 5% 15%;
 }
 
 .content p{
