@@ -11,6 +11,7 @@ body{
     box-sizing: border-box;
     background-color:#042326;
     color: #F6F6F6;
+    scroll-behavior: smooth;
 }
 
 header{
